@@ -45,6 +45,17 @@ body{
     font-size: 8vh;
   }
 
+  @media only screen and (max-width: 600px) {
+    .row .con span{
+      font-size: 4vh;
+    }
+    .row p{
+      font-size: 1.8vh;
+    }
+    .row i{
+      font-size: 4vh;
+    }
+  }
 .uni{
     display: grid;
     grid-template-columns: auto auto;
