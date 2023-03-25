@@ -1,5 +1,5 @@
 function fetchData() {
-    fetch('../src/img/galleryData.json')
+    fetch('https://vikasana-pu.github.io/WebPage01_ClientDemo/src/img/galleryData.json')
     .then((res) => res.json())
     .then((data) => {
       appendData(data);
