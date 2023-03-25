@@ -220,3 +220,40 @@ body{
     }
   }
   
+
+  @media only screen and (max-width: 600px) {
+    .find02 i{
+      font-size: 8vh;
+  }
+  .find01 i{
+    font-size: 8vh;
+}
+.find01 span{
+    font-size: 7vh;
+}
+#con h1{
+  font-size: 7vh;
+}
+#con p{
+  font-size: 1.8vh;
+}
+
+.numU i{
+  font-size: 8vh;
+}
+.numU p{
+  font-size: 1.8vh;
+}
+.ask i{
+  font-size: 8vh;
+}
+.ask span{
+  font-size: 7vh;
+}
+.num h1{
+  font-size: 8vh;
+}
+.num span{
+  font-size: 4vh;
+}
+  }
