@@ -21,7 +21,7 @@ function appendData(data) {
       else{
         count++;
       }
-        dataToP += '<div class=\"gal_img delay-0'+ count +'\"><img src=\"./src/img/gallery_img/' + data.Data[i] + '\" alt=\"galleryIMG\"></div>'
+        dataToP += '<div class=\"gal_img delay-0'+ count +'\"><img src=\"https://vikasana-pu.github.io/WebPage01_ClientDemo/src/img/gallery_img/' + data.Data[i] + '\" alt=\"galleryIMG\"></div>'
     }
     document.getElementById("all_pic").innerHTML += dataToP;
 }
