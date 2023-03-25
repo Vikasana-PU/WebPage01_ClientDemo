@@ -1,0 +1,142 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+}
+
+body{
+    background: #ecebeb;
+    color: #434343;
+}
+svg{
+    width: 50%;
+    height: 50%;
+}
+.border
+{
+  width: 160px;
+  height: 5px;
+  background: #6ab04c;
+  margin: 10px auto;
+}
+.pdfV{
+    text-align: center;
+}
+.pdfV iframe{
+    border-style: none;
+    border-radius: 8px;
+    height: 500px;
+    width: 800px;
+}
+
+@media screen and (max-width: 960px)
+{
+    .pdfV iframe{
+        height: 800px;
+        width: 95%;
+    }
+}
+
+/* to place any item in center Best way is Grid
+display:grid;
+place-items: center;
+align-content:center;*/
+
+.hidden{
+    opacity: 0;
+    transition: all 2s;
+}
+.show{
+    opacity: 1;
+}
+
+.row
+{
+    display:grid;
+    place-items: center;
+    align-content:center;
+    animation-name: mymove;
+    animation-duration: 1s;
+}
+
+@keyframes mymove {
+    0%{
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateX(-100%);
+    }
+    75%{
+        transform: translateX(10%);
+        filter: blur(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+.col
+{
+  flex: 33.33%;
+  max-width: 800px;
+  box-sizing:  border-box;
+  padding: 15px;
+}
+
+.testimonial
+{
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.testimonial img
+{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name
+{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.stars
+{
+  color: #f0932b;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 960px)
+{
+  .col
+  {
+    flex: 100%;
+    max-width: 80%;
+  }
+}
+
+.num{
+  font-size: 8vh;
+  animation-name: mymover;
+  animation-duration: 2s;
+}
+
+@keyframes mymover {
+    0%{
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateX(100%);
+    }
+    75%{
+        transform: translateX(-10%);
+        filter: blur(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }

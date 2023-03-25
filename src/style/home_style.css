@@ -1,0 +1,222 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+}
+
+
+body{
+    background: #ecebeb;
+    color: #434343;
+}
+.mySlides {display:none;}
+
+.num{
+    background-image:
+            linear-gradient(180deg,
+              rgba(66, 245, 191, 0.75),
+              rgba(66, 245, 191, 0.75)), url('../img/bgOfPG.jpg');
+  }
+.num h1{
+    font-size: 10vh;
+    text-transform: uppercase;
+    text-align: center;
+  }
+.num span{
+    font-size: 5vh;
+    font-weight: 100;
+  }
+  
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    width: 100%;
+  }
+  .row .con span{
+    font-size: 10vh;
+  }
+  .row p{
+    font-size: 3vh;
+  }
+  .row i{
+    font-size: 8vh;
+  }
+
+.uni{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5%;
+    /*
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;*/
+    width: 100%;
+    background-image:
+    linear-gradient(180deg,
+      rgba(66, 245, 230, 0.75),
+      rgba(66, 245, 230, 0.75)), url('../img/different-bg.png');
+}
+@media only screen and (max-width: 991px) {
+    .uni{
+        display: grid;
+        grid-template-columns: auto;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    i{
+      font-size: 50%;
+    }
+    p{
+        font-size: 50%;
+    }
+  }
+  @media only screen and (max-width: 575px) {
+    i{
+        font-size: 46.87%;
+      }
+      p{
+        font-size: 46.87%;
+      }
+    }
+.ask{
+    font-weight: 100;
+    padding: 20px;
+}
+.ask i{
+    font-size: 12vh;
+}
+.ask span{
+    font-weight: 300;
+    font-size: 10vh;
+}
+
+.numU{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5%;
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: left;*/
+    width: 100%;
+    gap: 30px;
+    text-align: left;
+    padding: 30px;
+}
+
+.numU i{
+    font-size: 8vh;
+}
+.numU p{
+    font-size: 4vh;
+}
+
+.aboutUs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    padding: 20px;
+    animation-name: mymoveT;
+    animation-duration: 3s;
+  }
+  #con h1{
+    font-size: 10vh;
+  }
+  #con p{
+    font-size: 2vh;
+  }
+  .aboutUs img{
+    height: 250px;
+    width: 250px;
+  }
+  
+
+.findUS{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 45px;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+.find01{
+    font-weight: 100;
+    padding: 20px;
+    animation-name: mymoveL;
+    animation-duration: 3s;
+}
+.find01 i{
+    font-size: 12vh;
+}
+.find01 span{
+    font-weight: 300;
+    font-size: 10vh;
+}
+  
+.find02{
+    font-weight: 100;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+    animation-name: mymoveR;
+    animation-duration: 3s;
+}
+.find02 i{
+    font-size: 12vh;
+    padding: 20px;
+}
+
+
+@keyframes mymoveR {
+    0%{
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateX(100%);
+    }
+    75%{
+        transform: translateX(-10%);
+        filter: blur(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+  @keyframes mymoveL {
+    0%{
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateX(-100%);
+    }
+    75%{
+        transform: translateX(10%);
+        filter: blur(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+  @keyframes mymoveT {
+    0%{
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateY(-100%);
+    }
+    75%{
+        transform: translateY(10%);
+        filter: blur(0);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+  
