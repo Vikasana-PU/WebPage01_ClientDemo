@@ -45,17 +45,6 @@ body{
     font-size: 8vh;
   }
 
-  @media only screen and (max-width: 600px) {
-    .row .con span{
-      font-size: 4vh;
-    }
-    .row p{
-      font-size: 1.8vh;
-    }
-    .row i{
-      font-size: 4vh;
-    }
-  }
 .uni{
     display: grid;
     grid-template-columns: auto auto;
@@ -232,39 +221,51 @@ body{
   }
   
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 500px) {
     .find02 i{
-      font-size: 8vh;
+      font-size: 4vh;
   }
   .find01 i{
-    font-size: 8vh;
+    font-size: 4vh;
 }
 .find01 span{
-    font-size: 7vh;
+    font-size: 4vh;
 }
 #con h1{
-  font-size: 7vh;
+  font-size: 4vh;
 }
 #con p{
   font-size: 1.8vh;
 }
 
-.numU i{
-  font-size: 8vh;
-}
-.numU p{
-  font-size: 1.8vh;
-}
 .ask i{
-  font-size: 8vh;
+  font-size: 4vh;
 }
 .ask span{
-  font-size: 7vh;
+  font-size: 4vh;
 }
 .num h1{
-  font-size: 8vh;
+  font-size: 2vh;
 }
 .num span{
   font-size: 4vh;
 }
   }
+
+  @media only screen and (max-width: 575px) {
+    .row .con span{
+      font-size: 4vh;
+    }
+    .row p{
+      font-size: 1.8vh;
+    }
+    .row i{
+      font-size: 4vh;
+    }
+    .container h1{
+      font-size: 4vh;
+    }
+    .container span{
+      font-size: 3vh;
+    }
+  }  
