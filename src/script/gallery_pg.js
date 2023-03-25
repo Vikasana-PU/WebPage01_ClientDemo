@@ -6,7 +6,6 @@ function fetchData() {
       })
     .catch((error) => {
       console.log(`Error Fetching data : ${error}`)
-      document.getElementById('jsonStats').innerHTML = 'Error Loading Data'
     })
 }
 
