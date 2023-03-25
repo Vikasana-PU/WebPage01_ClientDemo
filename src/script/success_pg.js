@@ -1,5 +1,5 @@
 function fetchData() {
-    fetch('https://vikasana-pu.github.io/WebPage01_ClientDemo/src/data/testimonialsData.json')
+    fetch('../src/data/testimonialsData.json')
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
