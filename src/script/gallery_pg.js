@@ -1,5 +1,5 @@
 function fetchData() {
-    fetch('../src/img/galleryData.json')
+    fetch('./src/script/galleryData.json')
     .then((res) => res.json())
     .then((data) => {
       appendData(data);

@@ -1,5 +1,5 @@
 function fetchData() {
-    fetch('../src/data/testimonialsData.json')
+    fetch('./src/script/testimonialsData.json')
     .then((res) => res.json())
     .then((data) => {
       console.log(data);

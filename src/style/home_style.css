@@ -268,4 +268,13 @@ body{
     .container span{
       font-size: 3vh;
     }
+    .numU i{
+      font-size: 4vh;
+  }
+  .numU p{
+      font-size: 1.8vh;
+  }
+  .numU{
+    font-size: 4vh;
+  }
   }  

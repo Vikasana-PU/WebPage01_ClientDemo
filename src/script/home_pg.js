@@ -1,5 +1,5 @@
 function latest() {
-    fetch('../src/data/other_data.json')
+    fetch('./src/script/other_data.json')
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
@@ -11,7 +11,7 @@ function latest() {
 }
 
 function fetchBanner() {
-  fetch('../src/img/otherIMG.json')
+  fetch('./src/script/otherIMG.json')
   .then((res) => res.json())
   .then((data) => {
     console.log(data);
