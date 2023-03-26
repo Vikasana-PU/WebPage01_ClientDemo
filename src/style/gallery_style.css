@@ -51,6 +51,17 @@ body{
     margin: 10px;
     animation-name: mymover;
 }
+@media only screen and (max-width: 500px) {
+    .gal_img{
+        width: 30vh;
+        height: 30vh;
+    }
+    .gal_body{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+}
 .gal_img img{
     filter: grayscale(100%);
     transition-property: filter;

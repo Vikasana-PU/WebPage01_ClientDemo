@@ -32,7 +32,7 @@ function appendBanner(data) {
   console.log(data.banner.length);
   var dataToP = ""
   for (var i = 0; i < data.banner.length; i++) {
-    dataToP += '<img class="mySlides" src=\"./src/img/' + data.banner[i] + '\" style="width:100%">'
+    dataToP += '<div class="mySlides fade"><img src=\"./src/img/' + data.banner[i] + '\" style="width:100%"></div>'
   }
   document.getElementById("banner").innerHTML += dataToP;
 }
