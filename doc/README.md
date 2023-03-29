@@ -1,1 +1,1 @@
-* It's a **PWA** App
+* It's a **PWA** App using manifest file
